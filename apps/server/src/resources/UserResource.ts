@@ -26,3 +26,5 @@ router.get('/me', authMiddleware, async (req, res, next) => {
         res.json(user);
     } catch (err) { next(err); }
 });
+
+export default router;
