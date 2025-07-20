@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import { RecipeService, UserService } from '../services/RecipeService';
+import { RecipeService } from '../services/RecipeService';
+import { UserService } from '../services/UserService';
 import { authMiddleware } from '../utils/auth';
 
 const router = Router();
